@@ -16,7 +16,7 @@
 
 # 참고 스크린샷
 
-## 좁은 화면 모드 적용시
+## 브라우저 넓이가 충분하지 않을때 적용 예시
 ![2](https://github.com/ryuhyoseok/fix_chzzk_layout/assets/2416795/d775d441-9e69-4f0e-a572-87a74f24f7d4)
 
 ## 다운로드 후 파일 확인용 스크린샷
