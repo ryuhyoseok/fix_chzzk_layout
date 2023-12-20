@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>치지직 넓은 화면 레이아웃 변경</h1>
+      <fieldset>
+        <div>
+          <input type="radio" name="layoutOption" id="noLayout" />
+          <label for="responsive">설정안함</label>
+        </div>
+        <div>
+          <input type="radio" name="layoutOption" id="responsive" />
+          <label for="responsive">반응형</label>
+          (
+          <label for="responsiveWidth">최소 width 설정</label>
+          <input id="responsiveWidth" placeholder="반응형 가로 width" />
+          )
+        </div>
+        <div>
+          <input type="radio" name="layoutOption" id="strict" />
+          <label for="strict">강제변경</label>
+        </div>
+      </fieldset>
+    <script src="optionHandler.js"></script>
+  </body>
+</html>
