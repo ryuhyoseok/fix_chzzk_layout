@@ -19,6 +19,11 @@
 ## 좁은 화면 모드 적용시
 ![2](https://github.com/ryuhyoseok/fix_chzzk_layout/assets/2416795/d775d441-9e69-4f0e-a572-87a74f24f7d4)
 
+## 다운로드 후 파일 확인용 스크린샷
+다운로드 후 아래와 같이 파일이 위치해 있으면 됩니다(폴더명은 상관없음)
+![스크린샷 2023-12-20 234227](https://github.com/ryuhyoseok/fix_chzzk_layout/assets/2416795/14ba0ca5-0de2-481a-afc1-560c286420ca)
+
+
 ## 옵션 버튼 위치
 ![1](https://github.com/ryuhyoseok/fix_chzzk_layout/assets/2416795/560014d1-0efe-47d1-89b6-9ef5203d693d)
 
