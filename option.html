@@ -11,10 +11,18 @@
         </div>
         <div>
           <input type="radio" name="layoutOption" id="responsive" />
-          <label for="responsive">반응형</label>
+          <label for="responsive">반응형(최소 width)</label>
           (
           <label for="responsiveWidth">최소 width 설정</label>
-          <input id="responsiveWidth" placeholder="반응형 가로 width" />
+          <input id="responsiveWidthInput" placeholder="반응형 가로 width" />
+          )
+        </div>
+        <div>
+          <input type="radio" name="layoutOption" id="responsiveRatio" />
+          <label for="responsive">반응형(종횡 비율)</label>
+          (
+          <label for="responsiveRatio">종횡비 설정</label>
+          <input id="responsiveRatioInput" placeholder="반응형 종횡비 (분수로 표헌)" />
           )
         </div>
         <div>
