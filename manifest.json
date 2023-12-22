@@ -1,7 +1,7 @@
 {
     "name": "Chzzk 레이아웃 변경기",
     "description": "Chzzk 뷰어 레이아웃 변경",
-    "version": "0.1",
+    "version": "0.2",
     "manifest_version": 3,
     "options_page": "option.html",
     "content_scripts": [
