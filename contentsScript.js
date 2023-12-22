@@ -1,8 +1,8 @@
 (async () => {
-    const {layoutType, responsiveWidth } = (await chrome.storage.sync.get(['layoutType', 'responsiveWidth']) || {})
+    const {layoutType, responsiveWidth, responsiveRatio } = (await chrome.storage.sync.get(['layoutType', 'responsiveWidth', 'responsiveRatio']) || {})
 
     console.log(
-        'layoutType', layoutType, 'responsiveWidth', responsiveWidth
+        'layoutType', layoutType, 'responsiveWidth', responsiveWidth, 'responsiveRatio', responsiveRatio
     )
 
     const STRICT_STYLE_ID = '_chzzk_fix_position_strict'
@@ -37,7 +37,7 @@
         document.body.appendChild(newStyle)
     }
 
-    function fixSectionLayoutResponsive() {
+    function fixSectionLayoutResponsiveWidth() {
         const responsiveStyle = document.querySelector(`#${RESPONSIVE_STYLE_ID}`)
         if (responsiveStyle) return
 
@@ -54,6 +54,24 @@
         document.body.appendChild(newStyle)
     }
 
-    if (layoutType === 'responsive') fixSectionLayoutResponsive()
+    function fixSectionLayoutResponsiveRatio() {
+      const responsiveStyle = document.querySelector(`#${RESPONSIVE_STYLE_ID}`)
+      if (responsiveStyle) return
+
+      const newStyle = document.createElement('style')
+      newStyle.id = RESPONSIVE_STYLE_ID
+
+      const styleString = `
+      @media(max-aspect-ratio: ${responsiveRatio}) {
+          ${MAIN_STYLE_STRING}
+          ${ASIDE_STYLE_STRING}
+      }
+      `
+      newStyle.innerHTML = styleString
+      document.body.appendChild(newStyle)
+  }
+
+    if (layoutType === 'responsive') fixSectionLayoutResponsiveWidth()
+    else if (layoutType === 'responsiveRatio') fixSectionLayoutResponsiveRatio()
     else if (layoutType === 'strict') fixSectionLayoutStrict()
 })()
