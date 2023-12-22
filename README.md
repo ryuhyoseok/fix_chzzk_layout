@@ -3,6 +3,9 @@
 
 스타일(css) 조절을 통한 간이 대응이며, 치지직에서 스타일 관련 레이아웃을 변경하였을 경우 제대로 동작하지 않을수 있습니다.
 
+# 적용 환경
+pc 크롬에서 사용 가능합니다(모바엘에서는 테스트 하지 않음)
+
 # 적용 방법
 1. 익스텐션 설치: zip 파일 다운로드 후 압축 풀기, 다운로드 링크 (가장 최신 버전을 다운받으시면 됩니다): https://github.com/ryuhyoseok/fix_chzzk_layout/releases
 2. 익스텐션 적용 (크롬의 익스텐션 적용은 https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=ko#load-unpacked 참고)
