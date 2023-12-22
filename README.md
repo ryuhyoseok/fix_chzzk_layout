@@ -12,7 +12,9 @@
 
 # 제공 모드
 - 반응형: 브라우저 가로 크기가 넓은 상태이면 기존 치지직 화면 제공, 브라우저 넓이가 좁아지면 채팅창을 아래로 고정(기준이 되는 넓이 픽셀은 설정 가능)
+- [0.2 버전 추가] 종횡비 반응형: 브라우저 종/횡(가로/세로) 비율에 따라 화면 레이아웃이 변경됨, 종횡비는 분수로 표현하며 해당 분수값이 될때까지 채팅창을 아래로 고정
 - 강제 설정: 화면 넓이에 상관없이 강제로 채팅창을 아래로 고정
+ 
 
 # 참고 스크린샷
 
@@ -28,4 +30,5 @@
 ![1](https://github.com/ryuhyoseok/fix_chzzk_layout/assets/2416795/560014d1-0efe-47d1-89b6-9ef5203d693d)
 
 ## 옵션 화면
-![스크린샷 2023-12-20 230148](https://github.com/ryuhyoseok/fix_chzzk_layout/assets/2416795/42aac81c-b09f-4a6d-a25d-6ecdac6e925d)
+![44](https://github.com/ryuhyoseok/fix_chzzk_layout/assets/2416795/27571744-f8f9-47cf-9337-67d2b5be2afd)
+
