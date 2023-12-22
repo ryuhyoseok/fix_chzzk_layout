@@ -8,7 +8,7 @@
     const STRICT_STYLE_ID = '_chzzk_fix_position_strict'
     const RESPONSIVE_STYLE_ID = '_chzzk_fix_position_responsive'
     const MAIN_STYLE_STRING = `
-    section[class*=large] div[class*=large] {
+    section[class*=large] main div[class*=large] {
         height: 100%;
         z-index: 10
     }
